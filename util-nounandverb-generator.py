@@ -39,7 +39,7 @@ with open(
       sentences = []
       write_str = ''
 
-      for str_sentence in sentence_split(case):
+      for str_sentence in sentence_spliter(case):
         sentences.append(str_sentence)
         # print(content)
       ctr1 += len(sentences) - 1
